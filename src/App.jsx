@@ -1,22 +1,11 @@
-// import './App.css'
 
-// function App() {
-
-//   return (
-//     <>
-   
-//     </>
-//   )
-// }
-
-// export default App
-
+import './App.css'
 import userData from "./userData.json";
-import Profile from './components/Profile';
+import Profile from './components/profile/Profile';
 
 export default function App() {
   return (
-    <>
+    <div className='app'>
       <Profile
         name={userData.username}
         tag={userData.tag}
@@ -24,6 +13,7 @@ export default function App() {
         image={userData.avatar}
         stats={userData.stats}
       />
-    </>
+      </div>
+   
   );
 };

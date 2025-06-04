@@ -1,0 +1,79 @@
+.ProfileCard {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  border: 1px solid #000;
+  border-radius: 10px;
+}
+
+.Rozet {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px 25px 0px 25px;
+  background-color: rgba(193, 188, 147, 0.13);
+}
+
+.Avatar {
+  width: 40%;
+  height: auto;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.75);
+  margin-bottom: 20px;
+}
+
+.Name {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #000;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.Tag,
+.Location {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #0000008a;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 20px;
+}
+.Tag .Icon {
+  margin-bottom: -6.5px;
+}
+
+.Stats {
+  list-style: none;
+  display: flex;
+  margin-bottom: 20px;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(128, 126, 110, 0.204);
+}
+
+.Stats_item {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  border-top: 1px solid #000;
+  padding: 20px;
+}
+
+.Stats_itemName,
+.Stats_itemValue {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #000;
+  text-align: center;
+  margin: 0;
+}
+
+.Stats_itemValue {
+  font-weight: 900;
+  font-size: 1.5rem;
+}
